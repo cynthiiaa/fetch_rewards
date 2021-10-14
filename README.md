@@ -41,6 +41,7 @@ There were also redundancies with the various price columns from the Receipt tab
 >
 > I have many questions like:
 > - How is the data entered for Receipts, Users, and Brands?
+> - How are the associated JSON files created?
 > - How should I handle empty values? Would you like me to remove those rows with empty values, or should I replace them with fillers?
 > - Which columns can we remove from the Receipts table?
 >
