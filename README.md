@@ -33,12 +33,12 @@ There were also redundancies with the various price columns from the Receipt tab
 
 > Hi team,
 >
-> I recently went through the processes of analyzing the zipped JSON files for Receipts, Users, and Brands and noticed a few things.
+> I recently finished analyzing the zipped JSON files for Receipts, Users, and Brands and noticed a few things.
 > 1. Nested JSONs were found in both the Receipts and Brands file.
 > Parsing through nested data can lead to an increase in error, and it also slows down the execution of the code. If possible, could we have the rewardsReceiptItemList column, found in the Receipts file, and the CPG column, located in the Brands file, expanded beforehand?
 > 2. For the Users table, 82 users had 'FETCH-STAFF' as the role. As well as duplicate ids for several records within the Users table. I also noticed that the most recently created user dates back to February 12th, but it's currently October 14th. That's a little over eight months of missing records.
 > 3. There were many incomplete rows for Receipts and Brands and redundant columns found in the Receipts table.
-
+>
 > I have many questions like:
 > How is the data entered for Receipts, Users, and Brands?
 > How should I handle empty values? Would you like me to remove those rows with empty values, or should I replace them with fillers?
