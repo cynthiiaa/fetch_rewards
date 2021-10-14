@@ -15,13 +15,16 @@ When working with data I first look for incompleteness and invalidity. I used SQ
 
 `SELECT role from users
 GROUP BY role;`
+
 ![Alt text](images/groupby1.png)
 
 In the Users table, the value **CONSUMER** is expected but *FETCH-STAFF* is also found. So those users with *FETCH-STAFF* as role need to be reevaluated.
 
 `SELECT barcode, description from receipts
 GROUP BY barcode, description`
+
 ![Alt text](images/groupby2.png)
+
 Some of the items from the Receipt table had either a missing barcode or an **ITEM NOT FOUND** description.
 
 There were also redundancies with the various price columns from the Receipt table.
