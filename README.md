@@ -45,7 +45,7 @@ There were also redundancies with the various price columns from the Receipt tab
 > - How should I handle empty values? Would you like me to remove those rows with empty values, or should I replace them with fillers?
 > - Which columns can we remove from the Receipts table?
 >
-> But we should set up some time to go over this; my availability is flexible this week and next week. Feel free to CC anyone who is interested or can add input to this thread.
+> But we should set up some time to go over this; my availability is flexible this week and next week. Feel free to CC anyone who is interested or who can add input to this thread.
 >
 > Thanks,
 >
